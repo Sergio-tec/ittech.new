@@ -1,0 +1,232 @@
+* {
+  background-color: #161616;
+}
+/* Fuentes de texto*/
+@font-face {
+  font-family: Montserrat;
+  src: url(montserrat.ttf);
+}
+@font-face {
+  font-family: Roboto;
+  src: url(letra2.ttf);
+}
+/*div class container */
+.container {
+  width: 100%;
+  text-align: center;
+  font-family: Roboto;
+}
+@media screen and (min-width: 700px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  /* div que contiene el titulo*/
+}
+.titulo {
+  color: #3ba9d5;
+  font-size: 50px;
+  font-family: Montserrat;
+  /*Flex*/
+}
+@media screen and (min-width: 300px) {
+  .titulo {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+/* div parrafo de texto principal*/
+.p {
+  color: #a9a9a9;
+  font-size: 20px;
+  padding: 40px;
+}
+@media screen and (min-width: 300px) {
+  .p {
+    display: flex;
+    justify-content: center;
+  }
+  /*Div correo electronico enlasado */
+}
+.correo {
+  color: #3ba9d5;
+  font-size: 20px;
+}
+@media screen and (min-width: 300px) {
+  .correo {
+    display: flex;
+    justify-content: center;
+  }
+  /*color de correo y su decoracion  */
+}
+.correo a {
+  color: #3ba9d5;
+  text-decoration-line: none;
+}
+.correo a:hover {
+  color: #c4fcfa;
+}
+/* div horario de apertura*/
+.horario {
+  color: #f7f7f7;
+  font-size: 28px;
+}
+@media screen and (min-width: 300px) {
+  .horario {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+/*.apertura{
+	font-size: 20px;	
+}
+@media screen and (min-width: 300px){
+	.apertura{
+		display: flex;
+		justify-content: space-around;
+	}
+.abre{
+	color: #A9A9A9;
+	
+}
+.hora{
+	color:#3B9AD5;
+	padding: 5px;
+}
+.apertura span:hover{
+	color: #C4FCFA;
+}*/
+/*ul menu horarios y apertura */
+.menu_h {
+  color: #a9a9a9;
+  font-size: 10px;
+  list-style: none;
+  font-family: Roboto;
+
+}
+@media screen and (min-width: 300px) {
+  .menu_h {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+  }
+}
+a {
+  color: red;
+  text-decoration: none;
+  padding: 10px;
+
+}
+
+/*Empieza Footer*/
+.contenedor {
+  font-family: Roboto;
+  width: 100%;
+
+  /*flex*/
+
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+@media screen and (min-width: 678px) {
+  .contenedor {
+    display: flex;
+    justify-content: center;
+  }
+  /*div facebook y whatsaap */
+}
+.elemento1 {
+  align-content: center;
+}
+@media screen and (min-width: 200px) {
+  .elemento1 {
+    display: flex;
+    justify-content: space-around;
+  }
+  /*imagen de facebook */
+}
+.fbimg {
+  width: 25px;
+  border-radius: 100%;
+  padding: 40px 40px;
+}
+/* div copyright*/
+.elemento2 {
+  color: #a9a9a9;
+  font-size: 18px;
+  text-align: center;
+}
+@media screen and (min-width: 200px) {
+  .elemento2 {
+    display: flex;
+    justify-content: space-around;
+  }
+  /* Div menu de navegacion footer*/
+}
+.menu {
+  font-size: 13px;
+  padding: 8px;
+  margin: 24px 0px 0px;
+  list-style: none;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .menu {
+    display: flex;
+    justify-content: center;
+  }
+  /* se dirige a cada elemento del menu*/
+}
+.menu a {
+  padding: 8px;
+  color: #3b9ad5;
+  text-decoration: none;
+}
+.menu a:hover {
+  color: #c4fcfa;
+}
+/* div de texto tecnologia*/
+.elemento4 {
+  color: #a9a9a9;
+}
+@media screen and (min-width: 200px) {
+  .elemento4 {
+    display: flex;
+    justify-content: space-around;
+  }
+  /*div terminos y acuerdos */
+}
+.elemento5 {
+  font-size: 10px;
+  padding: 2px;
+  margin: 24px 0px 0px;
+  text-align: center;
+  list-style: none;
+}
+@media screen and (min-width: 768px) {
+  .elemento5 {
+    display: flex;
+    justify-content: space-around;
+  }
+  /*separador */
+}
+.separator {
+  width: 50px;
+}
+br {
+  font-size: 2px;
+/*div horarios y dias de apertura */
+}
+#toggle-menu {
+  font-size: 20px;
+  color: #3ba9d5;
+  padding: 5px;
+  cursor: pointer;
+  /*flex*/
+  display: flex;
+  justify-content: space-around;
+}
